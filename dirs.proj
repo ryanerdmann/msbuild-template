@@ -1,0 +1,5 @@
+<Project>
+  <Target Name="Build">
+    <Message Text="Hello, world!" Importance="High" />
+  </Target>
+</Project>
