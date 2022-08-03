@@ -34,11 +34,6 @@ if (!(Test-Path -Path $RepoRoot -PathType Container))
     throw "Invalid repository root: '$RepoRoot'"
 }
 
-if (!(Test-Path -Path $ToolsPath -PathType Container))
-{
-    throw "Invalid tools path: '$RepoRoot'"
-}
-
 $TempPath = Join-Path -Path $RepoRoot -ChildPath ".msbuild\.temp"
 New-Item -Path $TempPath -ItemType Directory -Force > $null
 
