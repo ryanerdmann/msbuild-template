@@ -2,5 +2,10 @@
   "sdk": {
     "version": "6.0.302",
     "rollForward": "disable"
+  },
+  "msbuild-sdks": {
+    "Erdmann.Cpp.Sdk": "0.0.1",
+    "Microsoft.Build.NoTargets" : "3.5.6",
+    "Microsoft.Build.Traversal" : "3.1.6"
   }
 }

@@ -1,0 +1,7 @@
+<Project Sdk="Erdmann.Cpp.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+</Project>

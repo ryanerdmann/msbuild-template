@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.Build.NoTargets">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+  </PropertyGroup>
+
+  <Target Name="RunTool" BeforeTargets="AfterBuild">
+    <Message Text="Executing before build!" Importance="High" />
+  </Target>
+
+</Project>

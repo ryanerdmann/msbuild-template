@@ -6,6 +6,9 @@
 # Temporary files
 .temp/
 
+# Solution files (use slngen)
+*.sln
+
 # User-specific files
 *.rsuser
 *.suo

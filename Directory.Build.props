@@ -1,0 +1,7 @@
+<Project>
+
+  <PropertyGroup>
+    <RepoRoot Condition="$(RepoRoot) == ''">$(MSBuildThisFileDirectory)</RepoRoot>
+  </PropertyGroup>
+
+</Project>
